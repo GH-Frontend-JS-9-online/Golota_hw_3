@@ -1,0 +1,119 @@
+
+@media screen and (max-width: 754px) {
+    .menu__icon{
+      display: inline-block;
+    }
+    
+    .menu__links {
+      position: fixed;
+      display: none;
+      top: 0;
+      right: 0;
+      left: 0;
+      margin-top: 104px;
+      background-color: #333333;
+      z-index: 1000;
+      overflow: auto;
+      color: #ffffff;    
+    }
+    .menu__links-item {
+      display: block;
+      padding: 10px 0;
+      border-bottom: 1px solid #393939;
+      color: #ffffff;
+      font-size: 32px;
+      line-height: 106px;
+    }
+    .revolutionary-editor .headline{
+        text-align: center;
+    }
+    .pricing-box .blok-item{
+        border-radius: 0;
+        width: 100%;
+        margin-right: 0;
+    }
+  
+    .pricingdiv .blok-item:hover{
+        transform: none;
+        box-shadow: none;
+    }
+
+    .features .item-1{
+        margin: 0 auto;
+    }
+    .features .editor{
+        position: relative;
+        top:80px;
+        left: 30px; 
+    }
+    .features .headline{
+        max-width: 330px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 49px;
+    }
+
+    .subscription-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .subscription .headline{
+        padding-bottom: 43px;
+        font-size: 28px;
+    }
+    .footer-block{
+        width: 392px;
+        margin: 0 auto; 
+       
+    }
+}
+  @media screen and (min-width: 755px) {
+      .menu__links{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          
+      }
+      .menu__links .item{
+          display: none;
+  
+      }
+      .menu__links-item{
+          color: #635c73;
+          font-weight: 700;
+          padding-left: 29px;
+          
+      }
+      .buy-now{
+          order: 6;
+      }
+   
+    .features .editor{
+        position: relative;
+        overflow-x: hidden;
+        bottom: 570px;
+        left: 500px;
+        
+    }
+    .features .headline{
+        position: relative;
+        left: 500px;
+        top: 70px;
+    }
+    .features .content{
+        padding-top:89px;
+        height: 800px;
+    }
+  
+    .subscription-block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        align-content: center;
+    }
+   
+  }
